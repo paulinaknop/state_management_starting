@@ -8,8 +8,6 @@ class CounterView extends StatefulWidget {
 }
 
 class _CounterViewState extends State<CounterView> {
-  int n = 0;
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -19,7 +17,7 @@ class _CounterViewState extends State<CounterView> {
         ),
         body: Center(
           child: Text(
-            n.toString(),
+            "0",
             style: TextStyle(fontSize: 50.0),
           ),
         ),
